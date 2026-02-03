@@ -101,7 +101,7 @@ export default function Portfolio() {
     // This would trigger the download of your actual resume file
     // Replace 'resume.pdf' with the actual path to your resume
     const link = document.createElement('a');
-    link.href = '/path-to-your-resume.pdf'; // Update this path
+    link.href = '/Shaurya-resume.pdf'; // Update this path
     link.download = 'Shaurya_Dwivedi_Resume.pdf';
     document.body.appendChild(link);
     link.click();
